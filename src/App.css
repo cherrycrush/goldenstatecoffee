@@ -1,5 +1,86 @@
+html {
+  font-family: new-kansas, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Nav {
+  margin: 0, auto;
+  background-color: lightgoldenrodyellow;
+  padding: 4px 1rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.top-banner {
+  background-color: #ffff76;
+}
+
+li {
+  display: inline;
+  padding: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.header {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact {
+  max-width: 75%;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+  border-radius: 25px;
+}
+
+form {
+  display: flex;
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 200px;
+}
+
+.Footer {
+  background-color: lightpink;
+  margin: 0 auto;
+}
+
+/* images */
+#logo {
+  height: 30%;
+  width: 30%;
+}
+
+#logotext {
+  height: 30%;
+  width: 30%;
+}
+
+.star {
+  height: 5%;
+  width: 5%;
+}
+
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 .App-logo {
