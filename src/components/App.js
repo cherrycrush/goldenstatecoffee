@@ -4,13 +4,14 @@ import ContactForm from './ContactForm';
 import Nav from './Nav';
 import Footer from './Footer';
 import Banner from './Banner';
+import Card from './Card';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Banner />
-      <p>Our story is reminiscent of the 70's and embody the warmth of the Golden State California.</p>
+      <Card />
       <ContactForm />
       <Footer />
     </div>
