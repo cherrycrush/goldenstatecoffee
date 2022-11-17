@@ -13,11 +13,14 @@ function App() {
         <img id="logotext" src="images/logotype-colourful.svg" alt="Logo Text"></img>
       </section>
       <section className="content">
-        <img className="star" src="images/decoration-pink.svg" alt=""></img>
-        <h3>Our Story</h3>
-        <img className="star" src="images/decoration-orange.svg" alt=""></img>
-        <p>Our story is reminiscent of the 70's and embody the warmth of the Golden State California.</p>
+        <div className="header">
+          <img id="star" src="images/decoration-pink.svg" alt=""></img>
+          <h3>Our Story</h3>
+          <img id="star" src="images/decoration-orange.svg" 
+          alt=""></img>
+        </div>
       </section>
+      <p>Our story is reminiscent of the 70's and embody the warmth of the Golden State California.</p>
       <ContactForm />
       <Footer />
     </div>
